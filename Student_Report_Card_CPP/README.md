@@ -95,22 +95,6 @@ Percentage is calculated as the average of the marks entered for that student. T
 - `students`: id, name, roll number (unique), department, semester
 - `marks`: id, student id, subject, mark (0–100); one mark per subject per student
 
-## GitHub upload
-
-Create an empty GitHub repository, then run:
-
-```bash
-git init
-git add .
-git commit -m "Initial Student Report Card System"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-git push -u origin main
-```
-
-Replace the URL with your own repository URL. If `origin` already exists, use `git remote set-url origin YOUR-REPOSITORY-URL`.
-
-## Notes
 
 - The database file is generated locally and ignored by Git. The schema is created automatically at startup.
 - Do not commit private student information. Use fictional data for demonstrations.
